@@ -1,0 +1,9 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .nav-link {
+    @apply flex flex-col items-center text-gray-600 hover:text-green-600 transition-colors;
+  }
+}
