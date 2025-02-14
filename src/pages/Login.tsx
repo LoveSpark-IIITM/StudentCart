@@ -31,7 +31,7 @@ export default function Account() {
       const { error } = await supabase.auth.signInWithOtp({
         email,
         options: {
-          emailRedirectTo: window.location.origin,
+          emailRedirectTo: "https://student-cart-ten.vercel.app/",
         },
       });
 
